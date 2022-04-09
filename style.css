@@ -1,0 +1,72 @@
+body{
+    margin: 50px;
+    padding: 0;
+    min-width: 100px;
+    overflow-x: hidden;
+    background-color: #152F23;
+    height: 100vh;
+    color:#fff;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.bg{
+    background-color: #1A392E;
+    padding: 10px;
+    margin: 20px;
+    width: 450px;
+    height: 180px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Roboto:ital,wght@0,900;1,500&display=swap');
+
+:root{
+    --font-family-primary: 'Roboto', sans-serif;
+    --font-family-secondary:'Montserrat', sans-serif;
+}
+
+p{
+font-family: var(--font-family-primary);
+font-weight: 900;
+font-size: 20px;
+letter-spacing: 1px;
+text-transform: capitalize;
+}
+p1{
+    font-family: var(--font-family-secondary);
+    font-weight: 100;
+    color: #fff;
+    font-size: 1rem;
+    }
+span{
+    font-family: var(--font-family-primary);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: #79A889;
+    }
+    .first-line{
+        margin-left: 30px;
+        margin-top:20px;
+        padding: 5px;
+        font-family:var(--font-family-primary) ;
+        font-weight: 900;
+        font-size:xx-large ;
+    }
+    .img{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: 50vh;
+    }
+    #img1{
+        display: flex;
+        position: absolute;
+        top: 150px;
+        left: 1100px;
+ }
+#ficon{
+    color:white(0, 255, 217, 0.228);
+}
